@@ -1,0 +1,33 @@
+name: Labeler
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Add labels to pull request
+        run: |
+          echo '{
+            "labels": ["HACKTOBER", "HACKTOBER-2023"]
+          }' > labels.json
+
+          token=${{ secrets.GITHUB_TOKEN }}
+          pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+          
+          curl --request POST \
+            --url "https://api.github.com/repos/${{ github.repository }}/issues/${pr_number}/labels" \
+            --header "Authorization: Bearer $token" \
+            --header 'Content-Type: application/json' \
+            --data "@labels.json"
+
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
