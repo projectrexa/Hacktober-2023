@@ -8,6 +8,9 @@ Welcome to our Hacktoberfest Coding Challenge! 🚀
 
 This challenge is focused on building a simple portfolio website using HTML, JavaScript, and CSS. It's a beginner-friendly project that involves creating a personal webpage to showcase your skills and projects.
 
+**Note:** Pull requests will be evaluated every 12 hours. Thank you for your patience!
+
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
