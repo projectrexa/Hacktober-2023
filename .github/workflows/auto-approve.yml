@@ -1,12 +1,35 @@
-name: Auto approve
-on: pull_request_target
+name: Auto Approve Portfolio Changes
+
+on:
+  pull_request_target:
+    paths:
+      - 'portfolio/**'
 
 jobs:
-  build:
+  auto-approve:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+
     steps:
-      - uses: hmarr/auto-approve-action@v3
-        with: 
-           review-message: "Auto approved automated PR"
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check if changes are in the portfolio directory
+        id: check-portfolio
+        run: echo "::set-output name=changed::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^portfolio/')"
+
+      - name: Auto-approve pull request if changes are in the portfolio directory
+        if: steps.check-portfolio.outputs.changed
+        run: |
+          token=${{ secrets.GITHUB_TOKEN }}
+          pr_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+
+          curl --request POST \
+            --url "https://api.github.com/repos/${{ github.repository }}/pulls/${pr_number}/reviews" \
+            --header "Authorization: Bearer $token" \
+            --header 'Content-Type: application/json' \
+            --data '{"event": "APPROVE", "body": "Auto approved automated PR"}'
+          
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
