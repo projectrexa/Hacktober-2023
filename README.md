@@ -1,5 +1,3 @@
-Certainly! Let's add a section to the README that lists the contributors and links to their respective portfolios:
-
 # Hacktoberfest Coding Challenge: Simple Portfolio
 
 Welcome to our Hacktoberfest Coding Challenge! 🚀
@@ -9,6 +7,10 @@ Welcome to our Hacktoberfest Coding Challenge! 🚀
 This challenge is focused on building a simple portfolio website using HTML, JavaScript, and CSS. It's a beginner-friendly project that involves creating a personal webpage to showcase your skills and projects.
 
 **Note:** Pull requests will be evaluated every 12 hours. Thank you for your patience!
+
+**Starring the Repository**: Starring the repository not only shows your appreciation but also helps others discover this project. Your support is invaluable!
+
+**Maintainers' Discretion**: Please note that maintainers have the sole discretion to determine the eligibility of contributions. Contributions that align with the spirit of the project and follow the guidelines will be accepted.
 
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
