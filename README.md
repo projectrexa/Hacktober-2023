@@ -8,10 +8,14 @@ Welcome to our Hacktoberfest Coding Challenge! 🚀
 
 This challenge is focused on building a simple portfolio website using HTML, JavaScript, and CSS. It's a beginner-friendly project that involves creating a personal webpage to showcase your skills and projects.
 
-## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
 
-(Feel free to add more contributors and update the links as the contributions come in.)
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Contribution Challenge
 
@@ -72,17 +76,3 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 If you're new to web development or have questions about creating your portfolio, feel free to ask for help. We're here to assist you on your coding journey!
 
 Happy Coding and Building Your Portfolio! 🚀🌐
-
-<script>
-  // Fetch contributors dynamically using GitHub API
-  fetch('https://api.github.com/repos/projectrexa/Hacktober-2023/contributors')
-    .then(response => response.json())
-    .then(data => {
-      const contributorsList = data.map(contributor => {
-        return `- [${contributor.login}](${contributor.html_url})`;
-      }).join('\n');
-
-      document.querySelector('#contributors-list').innerHTML = contributorsList;
-    })
-    .catch(error => console.error('Error fetching contributors:', error));
-</script>
