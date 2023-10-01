@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    background-color: #24252A;
+}
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 16px 10%;
+    background-color: #24252A;
+    /* position: fixed; */
+    width: 100%;
+}
+
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#headernav ul .one{
+    border: 1px solid #0088a9;
+    border-radius: 50px;
+    padding: 9px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#headernav ul .one a {
+    color: #0088a9;
+}
+#headernav ul .one:hover a {
+    color: #fff;
+}
+
+.nav_links li:nth-child(1) {
+padding: 0 20px 0 0;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 20px;
+    margin: 5px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #edf0f1;
+    color: #0088a9;
+}
+
+img {
+    border: 5px solid #0088a9;
+    padding: 20px;
+    margin-bottom: 0;
+    border-radius: 100px;
+    margin-top: 80px;
+}
+
+img:hover {
+    border: 5px solid rgb(238, 49, 49);
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 75px;
+    cursor: grab
+}
+
+.grid{
+    color: #edf0f1;
+    text-align: center;
+    grid-column: span 3;
+}
+
+div {
+    border-radius: 5px;
+    padding: 20px; 
+    margin-left: 5px;
+}
+
+.grid-col-span-2 {
+    grid-column: span 3;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.main{
+    display: GRID;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.testz1,.testz{
+    float: left;
+}
+.testz1{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.testz{
+    padding-top:  0;
+}
+
+.box1{
+    background-color: rgb(238, 238, 4);
+    grid-column: span 3;
+}
+
+.grid:hover h1{
+    color: greenyellow;
+}
+
+h1{
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+.main .box1:hover,.box2:hover,.box3:hover,.box4:hover{
+    background-color: #fff;
+}
+
+.box3 {
+    background-color: plum;
+}
+
+.box4 {
+    background-color: tomato;
+}
+
+li{
+    color: black;
+    margin-left: 10px;
+}
+div a button{
+    font-size: 40px;
+    padding: 20px;
+}
+
+@keyframes beast {
+    0%   {background-color: red; color: white;}
+    25% {background-color: green; color: white;}
+    50%  {background-color: plum; color: #000;}
+    100%  {background-color: yellow; color: #000;}
+  }
+
+.box5 button:hover{
+    padding: 15px;
+    font-size: 45px;
+    animation-name: beast;
+    animation-duration: 4s;
+}
+
+.box5 {
+    text-align: center;
+    grid-column: span 3;
+}
+
+.contact{
+    text-align: center;
+  }
+    
+  input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Add a background color and some padding around the form */
+    .container {
+     border: 3px solid #0088a9;
+      border-radius: 30px;
+      background-color: #f2f2f2;
+      padding: 30px;
+      width: 30%;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .container1 {
+        border: 3px solid #0088a9;
+         border-radius: 30px;
+         background-color: #f2f2f2;
+         padding: 30px;
+         width: 30%;
+         margin: auto;
+         margin-bottom: 100px;
+         margin-top: 50px;
+       }
+
+       .container2 {
+        border: 3px solid #0088a9;
+         border-radius: 30px;
+         background-color: #f2f2f2;
+         padding: 30px;
+         width: 30%;
+         margin: auto;
+         margin-bottom: 150px;
+         margin-top: 150px;
+       }
+
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .submit {
+    background-color: #0088a9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+    font-size: small;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+
+.b{
+    color: #0088a9;
+}
+
+.footernav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px 10%;
+}
+#end, .end {
+    color: #0088a9;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+footer{
+    height: auto;
+    color: #fff;
+    background-color: #111;
+    /* margin-top: 150px; */
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+/*   width: 100vw; */
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
