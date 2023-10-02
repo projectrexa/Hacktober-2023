@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <title>Sujal Soni</title>
+</head>
+
+<!--In this html file, there is a usage Dispaly property-->
+<body>
+    <div class="top">
+        <img class="top-cloud" src="https://www.emoji.co.uk/files/phantom-open-emojis/animals-nature-phantom/12520-cloud.png" alt="Clouds" width="300px">
+        <h1>I'm Sujal</h1>
+        <p class="p">a <span class="pro">pro</span>grammer</p>            <!--usage of "span". To style specific letters in a word-->
+        <img class="bottom-cloud" src="https://www.emoji.co.uk/files/phantom-open-emojis/animals-nature-phantom/12520-cloud.png" alt="Clouds" width="300">
+        <img class="env" src="https://www.emoji.co.uk/files/emoji-one/travel-places-emoji-one/1788-mountain.png" alt="Mountain" width="400">
+    </div>
+    
+    <!--span is an inline element. This means that they require only as much space as assigned. And not shifting other element to the next line-->
+    <div class="middle-container">
+        <div class="profile">
+          <img src="img/myself-modified.png" width="400" alt="Sujal Soni">
+          <h2>Hello!</h2>
+          <p>My name is <span class="sp"><strong><em>Sujal Soni</em></strong></span>. I am a <span class="pr">pro</span>grammer.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="img-skill" src="https://w3-lab.com/wp-content/uploads/2019/12/Get-the-Most-Fancied-Web-Development-Services-min-scaled.jpg" width="400" alt="">
+            <h3>Web Design And Development</h3>
+            <p>I love to code and Design Webpages. I am well versed with C, C++, Java, Pyhton, OOPS. Now I am trying my hands on web development and looking for a full time job opportunities in the particular field.</p>
+          </div>
+          <div class="skill-row">
+            <img class="img-hob" src="img/570448dd301db.image-modified.png" width="400" alt="">
+            <h3>Planting</h3>
+            <p>I got my interest in plantation when I was 15. Being surrounded by trees and bushes is truly soothing which gives me sence of calmness.</p>
+          </div>
+        </div>
+        <hr>
+
+
+      <!-- Projects -->
+      <section class="projects section" id="projects" data-id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Involved Projects</span>
+        <br><br><br>
+    
+        <div class="projects__container container grid">
+            <!-- PROJECT 1 -->
+            <div class="project__card" data-image="assets/img/insightlens2.png" data-description="• MERN stack (MongoDB, Express.js, React, Node.js) used for web app. • CRUD functionality with RESTful APIs. • User authentication & authorization for security. • User-friendly endpoints & seamless routing with React Router. • Deployed on Vercel (frontend) & Render (backend)." data-source-code="https://github.com/Sujal-2820/Website">
+                <img src="assets/img/insightlens1.png" alt="Project 1" class="project__image">
+                <h3 class="project__title123">Blog website</h3>
+                <p class="project__description123">Crafted using MERN stack, this Blog Website empowers users to create, read, update, and delete blogs while ensuring secure authentication. 🌐📝</p>
+                <div class="project__buttons">
+                    <a href="#projects" class="project__button">Read More</a>
+                    <a href="https://insightlens.vercel.app/" class="project__button">Project Link</a>
+                </div>
+            </div>
+    
+            <!-- PROJECT 2 -->
+            <div class="project__card" data-image="assets/img/help geared1.png" data-description="• Frontend made using HTML, CSS, JavaScript, Bootstrap. • Backend: Node.js, Express.js. • Google Places API for data retrieval. • Google OAuth 2.0 for user authentication. • The website is hosted on Google Cloud Platform." data-source-code="https://github.com/Sujal-2820/Full-Stack-Web-App">
+                <img src="assets/img/help geared.png" alt="Project 2" class="project__image">
+                <h3 class="project__title123">Help Geared</h3>
+                <p class="project__description123">The aim of the project is to provide a centralized platform for users to find and donate to NGOs and orphanages around their Location. 📍🗺️</p>
+                <div class="project__buttons">
+                    <a href="#projects" class="project__button">Read More</a>
+                    <a href="https://help-geared.uw.r.appspot.com/" class="project__button">Project Link</a>
+                </div>
+            </div>
+    
+            <!-- PROJECT 3 -->
+            <div class="project__card" data-image="assets/img/hirexa2.png" data-description="• MERN stack frontend. • OpenCV for video analysis. • AI algorithms for evaluations. • Strong data privacy. • Feedback system for improvement." data-source-code="https://github.com/Sujal-2820/ParulHacks">
+                <img src="assets/img/hirexa1.png" alt="Project 3" class="project__image">
+                <h3 class="project__title123">Hiring Solution</h3>
+                <p class="project__description123">AI-powered hiring solution. Evaluates candidates through video intros, providing behavior patterns & gestures for recruiters. 👨🏻‍💻🧑‍🎓</p>
+                <div class="project__buttons">
+                    <a href="#projects" class="project__button">Read More</a>
+                    <a href="https://github.com/Sujal-2820/ParulHacks" class="project__button">Project Link</a>
+                </div>
+            </div>
+    
+            <!-- PROJECT 4 -->
+            <div class="project__card" data-image="assets/img/Booking2.png" data-description="• MERN stack: MongoDB, Express.js, React, Node.js. • Database: Hotel, villa, apartment listings. • Search: City, dates, guest count. • User-friendly booking interface." data-source-code="https://github.com/Sujal-2820/Booking-website/">
+                <img src="assets/img/Booking1.png"alt="Project 4" class="project__image">
+                <h3 class="project__title123">Booking Application</h3>
+                <p class="project__description123">MERN stack-powered platform for hotel, villa, and apartment reservations. Flexible date selection, guest count, and city-based search. 🛌🏘️</p>
+                <div class="project__buttons">
+                    <a href="#projects" class="project__button">Read More</a>
+                    <a href="https://bookingwebapplication.netlify.app/" class="project__button">Project Link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+
+
+    <!-- Contact Section -->
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Want to Collaborate</h3>
+          <p>Having a project/startup idea? Let's make it happen!</p>
+          <a class="btn" href="mailto:sujal28soni@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.techinfinitus.com/">Website</a>
+        <p>© Sujal Soni</p>
+      </div>
+
+      <script src="assets/js/main.js"></script>
+</body>
+</html>

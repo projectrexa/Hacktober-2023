@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+p{
+    text-decoration: underline;
+}
+
+.top{
+    background-color: #c3f8f8;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: solid 10px rgb(123, 14, 225);
+    
+}
+
+.middle{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: solid 20px;
+    margin-left: 260px;
+}
+
+.bottom{
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    border: dashed 10px;
+    margin-left: 500px;
+}
+
+.one{
+    background-color: yellow;
+}
+.two{
+    background-color: crimson;
+}
+
+/* "display : block" lets the words inside span print in next line */
+.three{
+    background-color: aquamarine;
+    display: inline-block;                     
+}
+
+/*Similarly "display : Inline" lets words inside p print in same line*/
+.five{
+    color: crimson;
+    background-color: yellow;
+    display: inline;
+}

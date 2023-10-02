@@ -1,0 +1,211 @@
+
+.projects__container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row on smaller screens */
+  }
+  
+  .project__card {
+    border: 4px solid #ccc;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 0.75rem); /* To show 2 cards in a row with a gap of 1.5rem */
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .project__card:hover {
+    /* Change the size and box-shadow when the card is hovered */
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project__image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+  
+  .project__title123 {
+    font-size: 28px;
+    margin-top: 1rem;
+    color: #f9660b;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project__title123:hover{
+    color:#333;
+    font-weight: 600;
+  }
+  
+  .project__description123 {
+    font-size: 1rem;
+    color:#6f6f6f;
+    margin-bottom: 1rem;
+  }
+  
+  .project__buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .project__button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #f9660b;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #f9660b;
+    font-size: 0.875rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .project__button:hover {
+    background-color: #f9660b;
+    color: #fff;
+    border: 2px solid #953a01;
+    font-size: 0.9rem;
+  }
+  
+  /* Laptop View */
+  @media screen and (max-width: 1200px) {
+    .project__card {
+        width: calc(50% - 0.75rem); /* Show 2 cards in a row with a gap of 1.5rem */
+    }
+  }
+  
+  /* Tablet View */
+  @media screen and (max-width: 768px) {
+    .project__card {
+        width: 100%; /* Show 1 card per row on smaller screens */
+    }
+  }
+  
+  /* Modal Pop-up */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the blur effect */
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #f9660b;
+  }
+  
+  .modal-bullet-points {
+    font-size: 1rem;
+    color: #1d1d1d;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-bullet-points li {
+    margin-bottom: 2rem;
+  }
+  
+  .modal-button {
+    display: block;
+    padding: 1rem 1rem;
+    border: 2px solid #333;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+  }
+  
+  .modal-button:hover {
+    background-color: #f9660b;
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Modal Pop-up */
+    .modal-content {
+      padding: 1rem; /* Reduce padding for smaller screens */
+      width: 90%;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  
+  
+    .modal-image {
+      width: 100%;
+      height: auto;
+      max-height: 70vh; /* Adjust this value as needed to make the image larger */
+      border-radius: 0.5rem;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+  
+    .modal-title {
+      font-size: 1.25rem; /* Reduce font size for better readability */
+      margin-bottom: 0.5rem;
+      color: #f9660b;
+    }
+  
+    
+  
+    .modal-bullet-points {
+      font-size: 1rem; /* Reduce font size for better readability */
+      line-height: 1.5;
+      color: #1d1d1d;
+      margin-bottom: 1rem;
+    }
+  
+    .modal-bullet-points li {
+      margin-bottom: 1.5rem;
+    }
+  
+    .modal-button {
+      font-size: 1rem;
+    }
+  
+    /* Adjust the close button size for smaller screens */
+    .close {
+      font-size: 1.25rem;
+    }
+  }
+   
