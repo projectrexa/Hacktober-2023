@@ -5,7 +5,8 @@ Welcome to my portfolio! This is a webpage providing a brief overview of who I a
 ## About Me
 
 I'm Sujal Soni, and I'm very excited to share a lot about myself with you.
-##Sujal-2820 is my main Github Account from where I actively contribute
+
+## Sujal-2820 is my main Github Account from where I actively contribute
 
 ## Features
 
