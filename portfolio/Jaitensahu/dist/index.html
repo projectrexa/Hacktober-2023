@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar flex  fixed flex-col right-0 h-screen justify-around items-center ">
+            <a class="font-bold text-[white] " href="#home">Home</a>
+            <a class="font-bold text-[white] " href="#about">About</a>
+            <a class="font-bold text-[white] " href="#project">Projects</a>
+            <a class="font-bold text-[white] " href="#contact">Contact</a>
+            <!-- <a class="font-bold text-[white] " href="">Blog</a> -->
+        </nav>
+    </header>
+
+    <main class="">
+
+        <section class="home max-w-[1700px] w-full  m-auto flex flex-col gap-10 pb-28" id="home">
+
+            <div class="top flex  text-white w-full items-center" id="top">
+                <div class="top-left w-[90%] p-5">
+                    <a href="./index.html">
+                        <span class="portfolio font-bold text-2xl  w-full relative top-6 z-1000"> Portfolio
+                        </span>
+                    </a>
+                    <hr class=" w-[60%] mb-4">
+                </div>
+                <div class="top-right w-[10%] fixed text-right mr-4 mt-4">
+
+                    <input type="checkbox" name="" id="menu" class="hidden">
+                    <label for="menu"><i class="fa-solid fa-plus bg-white p-1 rounded-full text-black"></i></label>
+                    <div class="menuContainer">
+                        <div class="onClickHome  onClickMenu"><a href="#home"><i class="fa-solid fa-house text-xl"></i></a></div>
+                        <div class="onClickAbout onClickMenu"><a href="#about"><i class="fa-solid fa-circle-info text-xl"></i></a></div>
+                        <div class="onClickProject onClickMenu"><a href="#project"><i class="material-symbols-outlined text-xl">
+                                workspaces
+                        </i></a></div>
+                        <div class="onClickContact onClickMenu"><a href="#contact"><i class="fa-solid fa-message text-xl"></i></a></div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="middle w-full ">
+                <div class="middle-container max-w-[1240px] m-auto w-full flex">
+                    <div class="profile-text py-[7%] flex flex-col w-1/2">
+
+                        <h1 class="animate__animated animate__fadeInDown hello text-xl text-[white]">Hello, I'm</h1>
+                        <div class="name relative mt-4">
+                            <div class=" relative w-[220px] ">
+                                <video autoplay muted width="100%" class="absolute -top-10 -left-3">
+                                    <source src="./smoke compressed.mp4" type="video/mp4">
+                                </video>
+                                <img src="./hii.gif" alt="" class="hii absolute w-[50px]  right-1 ">
+                                <span class="jaiten text-4xl text-[white] font-bold mt-3">Jaiten</span>&nbsp&nbsp&nbsp
+                                <span class="sahu text-4xl text-[white] font-bold mt-3">Sahu</span>
+
+                            </div>
+                        </div>
+                        <h3 class="frontendDev animate__animated animate__fadeInDown text-2xl text-[white]">Frontend Developer</h3>
+                        <p class="animate__animated animate__fadeInDown text-[white] mt-4 text-justify "> I'm dedicated
+                            to
+                            bringing digital experiences to life.
+                            Welcome to my digital
+                            playground, where innovation meets creativity, and pixels come to play.</p>
+                       <a href="./Jaiten Resume.pdf" download> <button class="w-32 font-bold text-white rounded-lg  py-2" >Download CV</button></a>
+                    </div>
+
+                    <div class="animate__animated animate__fadeIn image-bg w-1/2">
+                        <img src="./971-removebg-preview.png" alt="" class="">
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="bottom w-full" id="bottom">
+                <div
+                    class="bottom-container max-w-[1240px] m-auto text-white text-3xl flex flex-wrap justify-center items-center gap-[5px] ">
+                    <a href="https://github.com/jaitensahu"><i class="fa-brands fa-github p-4"></i></a>
+                    <a href="https://www.linkedin.com/in/jaiten-sahu"><i class="fa-brands fa-linkedin p-4"></i></a>
+                    <a href="https://www.hackerrank.com/its_jaiten"><i class="fa-brands fa-hackerrank p-4"></i></a>
+                    <a href="https://leetcode.com/its_jaiten/"><img src="./leetcode.png" alt=""
+                            class="w-[30px] mx-4"></a>
+                    <a href="" class="hidden"><i class="fa-brands fa-square-instagram p-3"></i></a>
+                    <a href="" class="hidden"><i class="fa-brands fa-twitter p-4"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about w-full ">
+            <div class="about-container max-w-[1700px] m-auto py-20 w-full flex justify-center items-center">
+                <div data-aos="fade-right" class="about-img w-[40%] flex justify-start pb-4">
+                    <img src="./pic-removebg-preview.png" alt="" class="w-[50%] min-w-[280px] ">
+                </div>
+                <div data-aos="fade-left" class="about-text w-[60%] text-white">
+                    <h1 class="text-4xl font-bold">About Me</h1>
+                    <p class=" my-5 text-justify mr-28">I'm a passionate web developer dedicated to crafting captivating
+                        web experiences. With expertise in HTML, CSS, and Tailwind CSS, I specialize in creating
+                        functional, beautiful, and accessible digital landscapes. I thrive on learning, growth, and
+                        making a positive impact, whether it's through websites, web apps, or sharing knowledge.</p>
+                    <div class="interest">
+                        <h2 class="text-xl font-semibold ">My Interest</h2>
+                        <div><span>Dance</span> <span>Travel</span> <span>Music</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-container2 max-w-[1700px] m-auto text-white py-20 px-[10%]">
+                <div>
+                    <p class="text-center">My Qualification</p>
+                    <h1 class="text-center text-4xl font-bold pb-2">Awesome Journey</h1>
+                    <div class="education-skills flex gap-10 mt-10 ">
+                        <div data-aos="fade-left" class="education flex flex-col w-1/2 flex-grow-1">
+                            <h2 class="text-2xl font-semibold mb-5">Education</h2>
+
+                            <div class="edu mb-3">
+                                <h3 class="text-[18px] text-[#772d58] font-bold">Full Stack Web Development</h3>
+                                <h4 class="text-[14px] text-[#772d58] font-semibold">Geekster</h4>
+                                <h5 class="text-[14px]">2023 - 2024</h5>
+                            </div>
+                            <div class="edu mb-3">
+                                <h3 class="text-[18px]  text-[#772d58] font-bold">Master of Technology in Soil and Water
+                                    Engineering</h3>
+                                <h4 class="text-[14px] text-[#772d58] font-semibold">IGKV Raipur C.G</h4>
+                                <h5 class="text-[14px]">2020 - 2022</h5>
+                            </div>
+                            <div class="edu">
+                                <h4 class="text-[18px]  text-[#772d58] font-bold">Bachlor of Technology in Agricultural
+                                    Engineering</h4>
+                                <h3 class="text-[14px] text-[#772d58] font-semibold">AKS University Satna M.P</h3>
+                                <h4 class="text-[14px]">2016 - 2020</h4>
+                            </div>
+
+                        </div>
+                        <div data-aos="fade-right" class="skills w-[50%] pr-10">
+                            <h2 class="text-2xl font-semibold mb-5">Skills</h2>
+                            <ul class="flex flex-wrap gap-5">
+                                <li><span class="bar "></span><span class="ml-5">Java</span></li>
+                                <li><span class="bar2 bar"></span><span class="ml-5">HTML</span></li>
+                                <li><span class="bar3 bar"></span><span class="ml-5">CSS</span></li>
+                                <li><span class="bar4 bar"></span><span class="ml-5">UI/UX</span></li>
+                                <li><span class="bar5 bar"></span><span class="ml-5">JavaScript</span></li>
+                                <li><span class="bar6 bar"></span><span class="ml-5">Video Editing</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="project" class="projects w-full">
+            <div class="project-container max-w-[1700px] py-20 m-auto">
+                <p class="text-center text-white">My Portfolio</p>
+                <h1 class="text-center text-4xl font-bold pb-2 text-white">Recent Works</h1>
+
+                <div class="projet-heading text-center flex justify-center gap-7 text-white flex-wrap">
+                    <a href=""><span>All Projects</span></a>
+                    <a href=""><span>HTML & CSS</span></a>
+                    <a href=""><span>Tailwind</span></a>
+                    <a href=""><span>Figma UI</span></a>
+                </div>
+
+                <div class="project-grid grid my-10 ">
+                    <div data-aos="fade-right" class="project-image-container">
+                        <img src="https://i.pinimg.com/564x/2a/c0/a7/2ac0a757b6d0170d517ecaed69371c5a.jpg" class="image"
+                            alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/Project-Dr.PathLab/Patients" target="_blank">
+                                <div class="text">Dr.LAL PATHLABS <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down" class="project-image-container">
+                        <img src="https://i.pinimg.com/564x/19/0a/64/190a64eb8b7e43eb848e4bf1470a2910.jpg" class="image"
+                            alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/Youtube_Clone/" target="_blank">
+                                <div class="text">YOUTUBE CLONE <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-down" class="project-image-container">
+                        <img src="./Major project HTML-CSS.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/Major-Project/" target="_blank">
+                                <div class="text">BUSINESS TEMPLATE <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="project-image-container">
+                        <img src="./caping gears.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/Camping-Gear/" target="_blank">
+                                <div class="text">CAMPING GEARS <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up-right" class="project-image-container">
+                        <img src="./Boosted.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/Boosted-USA-clone/" target="_blank">
+                                <div class="text">TAILWIND PROJECT <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="project-image-container">
+                        <img src="./Tailwind project2.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://jaitensahu.github.io/tailwind_major_project/dist" target="_blank">
+                                <div class="text">GYM TEMPLATE <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" class="project-image-container">
+                        <img src="./geekster.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://www.figma.com/proto/9xqhQvbFKukYCS9m4KfXRq/Geekster-HomePage?type=design&node-id=44-2&t=Rk410UhPrLw13mWO-0&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=84%3A120&show-proto-sidebar=1"
+                                target="_blank">
+                                <div class="text">GEEKSTER FIGMA CLONE <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up-left" class="project-image-container">
+                        <img src="./Mobile UI.png" class="image" alt="">
+                        <div class="overlay-text">
+                            <a href="https://www.figma.com/proto/0Viv2XmapJWmfx8OMvslOs/Juice-App?node-id=3-17&starting-point-node-id=3%3A17&scaling=scale-down"
+                                target="_blank">
+                                <div class="text">MOBILE UI FIGMA DESIGN <br><i
+                                        class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact max-w-[1700px] w-full flex flex-col items-center py-28 m-auto">
+            <div data-aos="fade-up" class="contact-top text-center">
+                <p class="text-white">Have Questions ?</p>
+                <h1 class="text-white text-4xl font-bold">Contact Me</h1>
+            </div>
+            <div data-aos="fade-up" class="contact-bottom flex flex-col-reverse w-full items-center gap-5 mt-5">
+                <div class="form w-1/2 ">
+                    <form action="./Response.html" id="message" method="post" class="flex flex-col gap-2 w-[100%]">
+                        <input data-aos="fade-up" type="text" placeholder="Name" required>
+                        <input data-aos="fade-up" type="email" placeholder="Email" required>
+                        <input data-aos="fade-up" type="text" placeholder="Subject">
+                        <textarea data-aos="fade-up" name="" id="" cols="30" rows="10" placeholder="Message"
+                            maxlength="300"></textarea>
+                        <button type="submit" form="message"><a href="./Response.html">Send Message</a></button>
+                    </form>
+                </div>
+                <div class="contact-info w-1/2">
+                    <div class="contact-info-content flex items-center text-[16px] font-bold gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <p><a href="tel:8770282064">+918770282064</a></p>
+                    </div>
+                    <div class="contact-info-content flex items-center text-[16px] gap-2 font-bold">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p><a href="mailto:jaitensahu9@gmail.com">jaitensahu9@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info-content"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer max-w-[1700px] w-full flex flex-col items-center py-5 m-auto">
+        <P class=" text-white text-sm">Copyright &#169; 2023 All Rights Reserved</P>
+    </footer>
+    <script src="https://kit.fontawesome.com/7c5861f7d9.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      </script>
+      <script defer src="/_vercel/insights/script.js"></script>
+</body>
+
+</html>
