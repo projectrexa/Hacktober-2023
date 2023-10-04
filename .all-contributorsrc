@@ -1,4 +1,21 @@
 {
   "projectName": "Hacktober-2023",
-  "projectOwner": "@projectrexa"
+  "projectOwner": "projectrexa",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "ADHIRAJ-12",
+      "name": "Adhiraj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104266861?v=4",
+      "profile": "https://github.com/ADHIRAJ-12",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
