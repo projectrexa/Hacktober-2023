@@ -18,6 +18,13 @@ This challenge is focused on building a simple portfolio website using HTML, Jav
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/arjunsingh27"><img src="https://avatars.githubusercontent.com/u/70803514?v=4?s=100" width="100px;" alt="Arjun Singh"/><br /><sub><b>Arjun Singh</b></sub></a><br /><a href="#code-arjunsingh27" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
