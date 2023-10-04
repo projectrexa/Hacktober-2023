@@ -1,4 +1,21 @@
 {
   "projectName": "Hacktober-2023",
-  "projectOwner": "@projectrexa"
+  "projectOwner": "projectrexa",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "Om-Mishra7",
+      "name": "Om Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96434205?v=4",
+      "profile": "https://projectrexa.dedyn.io/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
