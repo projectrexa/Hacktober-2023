@@ -20,6 +20,13 @@ This challenge is focused on building a simple portfolio website using HTML, Jav
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://projectrexa.dedyn.io/"><img src="https://avatars.githubusercontent.com/u/96434205?v=4?s=100" width="100px;" alt="Om Mishra"/><br /><sub><b>Om Mishra</b></sub></a><br /><a href="#code-Om-Mishra7" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
