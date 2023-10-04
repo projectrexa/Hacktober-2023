@@ -13,6 +13,8 @@ This challenge is focused on building a simple portfolio website using HTML, Jav
 **Maintainers' Discretion**: Please note that maintainers have the sole discretion to determine the eligibility of contributions. Contributions that align with the spirit of the project and follow the guidelines will be accepted.
 
 
+## Contributors
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
