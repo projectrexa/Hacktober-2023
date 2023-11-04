@@ -13,7 +13,7 @@ This challenge is focused on building a simple portfolio website using HTML, Jav
 **Maintainers' Discretion**: Please note that maintainers have the sole discretion to determine the eligibility of contributions. Contributions that align with the spirit of the project and follow the guidelines will be accepted.
 
 
-[![All Contributors](https://img.shields.io/github/all-contributors/@projectrexa/Hacktober-2023?color=ee8449&style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/github/all-contributors/projectrexa/Hacktober-2023?color=ee8449&style=flat-square)](#contributors)
 
 ## Contributors
 
